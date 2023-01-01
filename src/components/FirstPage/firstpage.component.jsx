@@ -20,7 +20,7 @@ const FirstPage = ({ startGame }) => {
     const [category, setCategory] = useState(CATEGORIES[0]);
     const [pace, setPace] = useState(PACE[0]);
     const [count, setCount] = useState(INITIAL_COUNT_CARDS);
-    
+
     const StartGame = () => {
         startGame([category, pace, count]);
     }
@@ -65,8 +65,6 @@ const FirstPage = ({ startGame }) => {
             </div>
         </>
     );
-
-
 }
 
 export default FirstPage;

@@ -1,11 +1,9 @@
-
 import { createClient } from 'pexels';
 import { useState } from 'react';
 import { useEffect } from 'react';
 
-
 const getRandomPage = () => Math.round(Math.random() * (10 - 1) + 1);
-
+const REACT_APP_AUTHH_KEY = "563492ad6f917000010000014b522c56a3b24e0ba1e2d54e486f8786"
 const GetImages = (gameOptions) => {
     console.log("category", gameOptions[0]);
     console.log("count", gameOptions[2]);
