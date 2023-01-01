@@ -1,5 +1,12 @@
 # Getting Started with Create React App
 
+I built a memory game using React Hooks, React Router, and an API for photos.
+The game allows players to match pairs of cards and customize the game settings such as the number of cards and the difficulty level. 
+The game also has different themes, including nature, abstract, birds, and people, which are displayed as photos on the cards.
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
