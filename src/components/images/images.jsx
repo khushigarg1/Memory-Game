@@ -22,7 +22,8 @@ const GetImages = (gameOptions) => {
     Array(0)
     */
     const fetchphotos = () => {
-        const client = createClient(process.env.REACT_APP_AUTHH_KEY);
+        // const client = createClient(process.env.REACT_APP_AUTHH_KEY);
+        const client = createClient(REACT_APP_AUTHH_KEY);
         client.photos.search({
             query: gameOptions[0],
             orientation: 'square',
