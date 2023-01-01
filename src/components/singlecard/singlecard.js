@@ -4,7 +4,7 @@ import './singlecard.styles.scss';
 export default function SingleCard({ card, handleChoice, flipped, disabled }) {
     const handleClick = () => {
         if (!disabled) {
-            handleChoice(card) 
+            handleChoice(card)
         }
     }
 
@@ -12,7 +12,7 @@ export default function SingleCard({ card, handleChoice, flipped, disabled }) {
         <div className='card' >
             <div className={flipped ? "flipped" : ""}>
                 <img className="front"
-                    src={card.src}
+                    src={card.src.medium}
                     alt="card front" />
                 <img className="back"
                     onClick={handleClick}

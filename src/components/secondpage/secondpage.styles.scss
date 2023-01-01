@@ -1,0 +1,40 @@
+.secondcard {
+  max-width: 860px;
+  margin: 40px auto;
+
+  button {
+    background: none;
+    border: 2px solid rgba(197, 96, 181, 0.573);
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  button:hover {
+    background: #ff84b37f;
+    transform: scale(1.1);
+    opacity: 0.6;
+    // color: antiquewhite;
+  }
+  .card-grid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    overflow: hidden;
+
+    //   .card {
+    //     width: 180px;
+    //     height: 160px;
+    //     overflow: hidden;
+    //   }
+  }
+  p {
+    font-size: larger;
+    color: black;
+    font-weight: bolder;
+  }
+}
